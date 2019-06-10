@@ -198,7 +198,7 @@ var _jsxFileName = "/Users/spencerpope/Sites/vanillajellaba/components/Image/ind
 var Image = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.img.withConfig({
   displayName: "Image",
   componentId: "de1u7y-0"
-})(["width:100%;"]);
+})(["width:100%;&:nth-of-type(3n + 1){grid-column:span 2;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return _data__WEBPACK_IMPORTED_MODULE_1__["data"].map(function (_ref) {
     var img = _ref.img;
@@ -209,7 +209,7 @@ var Image = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.img.withCon
       loading: "lazy",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 13
       },
       __self: this
     });
@@ -242,12 +242,10 @@ var _jsxFileName = "/Users/spencerpope/Sites/vanillajellaba/pages/index.js";
 var Title = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1.withConfig({
   displayName: "pages__Title",
   componentId: "sc-1cvwks4-0"
-})(["font-size:50px;color:", ";font-family:zxxcamo;text-transform:uppercase;", " margin:0;"], function (_ref) {
+})(["font-size:50px;color:", ";font-family:zxxcamo;text-transform:uppercase;writing-mode:tb-rl;margin:0;"], function (_ref) {
   var theme = _ref.theme;
   return theme.colors.primary;
-}, ''
-/* writing-mode: vertical-lr; */
-);
+});
 var Grid = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
   displayName: "pages__Grid",
   componentId: "sc-1cvwks4-1"
@@ -267,7 +265,7 @@ var Grid = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConf
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "preload",
-    href: "/static/fonts/skrappa.woff2",
+    href: "/static/fonts/zxx_camo.woff2",
     as: "font",
     type: "font/woff2",
     crossOrigin: "anonymous",
@@ -282,19 +280,19 @@ var Grid = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConf
       lineNumber: 29
     },
     __self: this
-  }, "\n        @font-face {\n            font-family: 'zxxcamo';\n            src: url('/static/fonts/zxx_camo.woff2') format('woff2'),\n                url('/static/fonts/zxx_camo.woff') format('woff');\n            font-display: swap;\n            font-weight: normal;\n            font-style: normal;\n        }\n        ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
+  }, "\n        @font-face {\n            font-family: 'zxxcamo';\n            src: url('/static/fonts/zxx_camo.woff2') format('woff2'),\n                url('/static/fonts/zxx_camo.woff') format('woff');\n            font-display: swap;\n            font-weight: normal;\n            font-style: normal;\n        }\n        ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Grid, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, "Jellaba"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Grid, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Jellaba"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44

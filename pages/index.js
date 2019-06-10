@@ -7,7 +7,7 @@ const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
   font-family: zxxcamo;
   text-transform: uppercase;
-  ${'' /* writing-mode: vertical-lr; */}
+  writing-mode: tb-rl;
   margin: 0;
 `;
 
@@ -21,7 +21,7 @@ export default () => (
     <Head>
       <link
         rel="preload"
-        href="/static/fonts/skrappa.woff2"
+        href="/static/fonts/zxx_camo.woff2"
         as="font"
         type="font/woff2"
         crossOrigin="anonymous"
@@ -39,8 +39,8 @@ export default () => (
         `}
       </style>
     </Head>
-    <Title>Jellaba</Title>
     <Grid>
+      <Title>Jellaba</Title>
       <Image />
     </Grid>
   </div>
