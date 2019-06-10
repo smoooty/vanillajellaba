@@ -6,6 +6,14 @@ const Title = styled.h1`
   font-size: 50px;
   color: ${({ theme }) => theme.colors.primary};
   font-family: skrappa;
+  text-transform: uppercase;
+  ${'' /* writing-mode: vertical-lr; */}
+  margin: 0;
+`;
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 `;
 
 export default () => (
@@ -30,7 +38,9 @@ export default () => (
         `}
       </style>
     </Head>
-    <Title>My page</Title>
-    <Image />
+    <Title>Jellaba</Title>
+    <Grid>
+      <Image />
+    </Grid>
   </div>
 );

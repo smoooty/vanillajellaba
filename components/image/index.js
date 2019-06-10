@@ -1,3 +1,9 @@
 import { data } from './data';
+import styled from 'styled-components';
 
-export default () => data.map(({ img }) => <img src={`/static/imgs/${img}`} />);
+const Image = styled.img`
+  width: 100%;
+`;
+
+export default () =>
+  data.map(({ img }) => <Image src={`/static/imgs/${img}`} />);
