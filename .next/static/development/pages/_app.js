@@ -13174,7 +13174,7 @@ var _jsxFileName = "/Users/spencerpope/Sites/vanillajellaba/pages/_app.js";
 
 var theme = {
   colors: {
-    primary: '#0070f3'
+    primary: '#000000'
   }
 };
 
