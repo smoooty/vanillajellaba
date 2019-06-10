@@ -6,4 +6,11 @@ const Image = styled.img`
 `;
 
 export default () =>
-  data.map(({ img }) => <Image src={`/static/imgs/${img}`} />);
+  data.map(({ img }) => (
+    <Image
+      src={`/static/imgs/${img}`}
+      alt={`Jellaba pose - ${img}`}
+      key={`${img}`}
+      loading="lazy"
+    />
+  ));

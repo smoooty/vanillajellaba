@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import styled from 'styled-components';
-import Image from '../components/image';
+import Image from '../components/Image';
 const Title = styled.h1`
   font-size: 50px;
   color: ${({ theme }) => theme.colors.primary};
