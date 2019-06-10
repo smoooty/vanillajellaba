@@ -5,7 +5,7 @@ import Image from '../components/Image';
 const Title = styled.h1`
   font-size: 50px;
   color: ${({ theme }) => theme.colors.primary};
-  font-family: skrappa;
+  font-family: zxxcamo;
   text-transform: uppercase;
   ${'' /* writing-mode: vertical-lr; */}
   margin: 0;
@@ -24,14 +24,15 @@ export default () => (
         href="/static/fonts/skrappa.woff2"
         as="font"
         type="font/woff2"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
       />
       <style>
         {`
         @font-face {
-            font-family: 'skrappa';
-            src: url('/static/fonts/skrappa.woff2') format('woff2'),
-                url('/static/fonts/skrappa.woff') format('woff');
+            font-family: 'zxxcamo';
+            src: url('/static/fonts/zxx_camo.woff2') format('woff2'),
+                url('/static/fonts/zxx_camo.woff') format('woff');
+            font-display: swap;
             font-weight: normal;
             font-style: normal;
         }
