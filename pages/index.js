@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import styled from 'styled-components';
-import Image from '../components/Image';
+import Images from '../components/Images';
 const Title = styled.h1`
   font-size: 50px;
   color: ${({ theme }) => theme.colors.primary};
@@ -41,7 +41,7 @@ export default () => (
     </Head>
     <Grid>
       <Title>Jellaba</Title>
-      <Image />
+      <Images />
     </Grid>
   </div>
 );

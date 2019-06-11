@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/Image/data.js":
-/*!**********************************!*\
-  !*** ./components/Image/data.js ***!
-  \**********************************/
+/***/ "./components/Images/data.js":
+/*!***********************************!*\
+  !*** ./components/Images/data.js ***!
+  \***********************************/
 /*! exports provided: data */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -84,10 +84,10 @@ var data = [{
 
 /***/ }),
 
-/***/ "./components/Image/index.js":
-/*!***********************************!*\
-  !*** ./components/Image/index.js ***!
-  \***********************************/
+/***/ "./components/Images/index.js":
+/*!************************************!*\
+  !*** ./components/Images/index.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -95,15 +95,15 @@ var data = [{
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./data */ "./components/Image/data.js");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./data */ "./components/Images/data.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/spencerpope/Sites/vanillajellaba/components/Image/index.js";
+var _jsxFileName = "/Users/spencerpope/Sites/vanillajellaba/components/Images/index.js";
 
 
 
 var Image = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].img.withConfig({
-  displayName: "Image",
-  componentId: "de1u7y-0"
+  displayName: "Images__Image",
+  componentId: "sc-78zini-0"
 })(["width:100%;&:nth-of-type(3n + 1){grid-column:span 2;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return _data__WEBPACK_IMPORTED_MODULE_1__["data"].map(function (_ref) {
@@ -7924,7 +7924,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _components_Image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Image */ "./components/Image/index.js");
+/* harmony import */ var _components_Images__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Images */ "./components/Images/index.js");
 var _jsxFileName = "/Users/spencerpope/Sites/vanillajellaba/pages/index.js";
 
 
@@ -7983,7 +7983,7 @@ var Grid = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withCon
       lineNumber: 43
     },
     __self: this
-  }, "Jellaba"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Jellaba"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Images__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
